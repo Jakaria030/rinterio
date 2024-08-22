@@ -53,10 +53,10 @@
 <body class="font-manrope">
 
     <!-- Header section start -->
-    <header class="bg-gradient-to-t from-white to-transparent">
-        <div class="container mx-auto px-5 sm:px-0">
-            <!-- Navbar section start -->
-            <section class="navbar bg-base-100 justify-between py-2 sm:py-5">
+    <header class="bg-gradient-to-t from-white to-transparent pb-10 sm:pb-20">
+        <!-- Navbar section start -->
+        <section class="container mx-auto px-5 sm:px-0">
+            <div class="navbar bg-base-100 justify-between py-2 sm:py-5">
                 <!-- left side logo -->
                 <a class="space-x-2" href="#">
                     <i class="fa-solid fa-arrow-right bg-primary p-2 rounded-full -rotate-[35deg] text-gray-6"></i>
@@ -78,15 +78,21 @@
                 <div>
                     <!-- large screen icons -->
                     <div class="space-x-5 hidden sm:block">
-                        <a href="#"><i
-                                class="fa-solid fa-magnifying-glass text-xl size-10 p-2 bg-white ring-1 rounded-full ring-gray-1 text-gray-3"></i></a>
+                        <a href="#">
+                            <i
+                                class="fa-solid fa-magnifying-glass text-xl size-10 p-2 bg-white ring-1 rounded-full ring-gray-1 text-gray-3"></i>
+                        </a>
 
-                        <a href="#"><i
-                                class="fa-solid fa-cart-shopping text-xl size-10 p-2 bg-white ring-1 rounded-full ring-gray-1 text-gray-3"></i></a>
+                        <a href="#">
+                            <i
+                                class="fa-solid fa-cart-shopping text-xl size-10 p-2 bg-white ring-1 rounded-full ring-gray-1 text-gray-3"></i>
+                        </a>
 
-                        <button class="px-4 py-3 bg-primary rounded-full text-xl font-extrabold text-gray-6 ">Book
-                            Consult<i
-                                class="fa-solid fa-arrow-right bg-gray-6 p-1 rounded-full -rotate-[35deg] text-white ml-2"></i></button>
+                        <button class="px-4 py-3 bg-primary rounded-full text-xl font-extrabold text-gray-6 ">
+                            Book Consult
+                            <i
+                                class="fa-solid fa-arrow-right bg-gray-6 p-1 rounded-full -rotate-[35deg] text-white ml-2"></i>
+                        </button>
                     </div>
 
                     <!-- small screen hamburger icon and dropdown -->
@@ -105,27 +111,80 @@
                         </ul>
                     </div>
                 </div>
-            </section>
-            <!-- Navbar section end -->
+            </div>
+        </section>
+        <!-- Navbar section end -->
 
-            <!-- Hero section start -->
-            <section class="hero">
-                <div class="hero-content flex-col">
-                    <img src="./images/banner.png" />
+        <!-- Hero section start -->
+        <section class="container mx-auto px-5 sm:px-0 hero">
+            <div class="hero-content flex-col">
+                <img src="./images/banner.png" />
 
-                    <div class="text-center">
-                        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-5">A barn house of this design has a striking appearance</h1>
+                <div class="text-center">
+                    <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-5">A barn house
+                        of this design has a striking appearance</h1>
 
-                        <p class="py-4 sm:py-6 text-gray-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                    <p class="py-4 sm:py-6 text-gray-4">The barn house captivates with its blend of rustic charm and
+                        modern sophistication, featuring weathered wood, sleek metal accents, and large windows that
+                        flood the space with natural light.</p>
 
-                        <button class="px-4 py-3 bg-primary/50 rounded-full text-xl font-bold text-gray-5 w-full sm:w-auto">View Details<i class="fa-solid fa-arrow-right bg-primary p-1 rounded-full -rotate-[35deg] text-gray-6 ml-2"></i></button>
-                    </div>
+                    <button
+                        class="px-4 py-3 bg-primary/50 rounded-full text-xl font-bold text-gray-5 w-full sm:w-auto">View
+                        Details<i
+                            class="fa-solid fa-arrow-right bg-primary p-1 rounded-full -rotate-[35deg] text-gray-6 ml-2"></i></button>
                 </div>
-            </section>
-            <!-- Hero section end -->
-        </div>
+            </div>
+        </section>
+        <!-- Hero section end -->
     </header>
     <!-- Header section end -->
+
+    <!-- Main section start -->
+    <main class="bg-gray-1/50">
+        <!-- About Us section start -->
+        <section class="container mx-auto px-5 sm:px-0 py-10 sm:py-20 ">
+            <div class="hidden lg:block relative bg-curve-line bg-no-repeat h-12 -left-12"></div>
+            <div class="flex flex-col lg:flex-row gap-6 md:gap-12">
+                <!-- text content -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-6">
+                    <div class="col-span-1 sm:col-span-2 lg:col-span-1 space-y-4 text-center lg:text-left">
+                        <button class="bg-white rounded-full px-5 py-2 font-bold text-gray-4"><i class="fa-solid fa-arrow-right"></i> About Us</button>
+                        <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-5 font-extrabold">We design thoughtful, <br> liveable spaces</h2>
+                        <p class="text-gray-4 font-medium">The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                            weathered wood, sleek metal accents.</p>
+                    </div>
+
+                    <div class="card card-side bg-white shadow-sm px-5 space-x-5">
+                        <figure class="">
+                            <img class="w-full h-auto block" src="./images/commercial.png" />
+                        </figure>
+                        <div class="card-body px-0">
+                            <h3 class="card-title text-xl font-extrabold">Commercial</h3>
+                            <p class="text-gray-3">The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                    </div>
+
+                    <div class="card card-side bg-white shadow-sm px-5 space-x-5">
+                        <figure class="">
+                            <img class="w-full h-auto bloc" src="./images/residential.png" />
+                        </figure>
+                        <div class="card-body px-0">
+                            <h3 class="card-title text-xl font-extrabold">Residential</h3>
+                            <p class="text-gray-3">The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- image content -->
+                <div class="basis-1/2 flex justify-center items-center">
+                    <img class="w-full h-52 sm:h-80 lg:h-auto block rounded-xl" src="./images/rectangle.png">
+                </div>
+            </div>
+        </section>
+        <!-- About Us section end -->
+
+    </main>
+    <!-- Main section end -->
 
 </body>
 

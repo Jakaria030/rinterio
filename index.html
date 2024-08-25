@@ -42,6 +42,7 @@
                     },
                     backgroundImage: {
                         'curve-line': "url('./images/vector.png')",
+                        'page-bg' : "url('./images/bg.jpg')",
                     }
                 }
             }
@@ -331,7 +332,7 @@
         </section>
         <!-- Our latest works section end -->
 
-        <!-- Rinterion news section start -->
+        <!-- Rinterio news section start -->
         <section class="bg-gradient-to-b from-gray-1/50 to-gray-1/10">
             <div class="container mx-auto px-5 py-10 sm:py-20">
                 <!-- section title -->
@@ -435,7 +436,43 @@
                 </div>
             </div>
         </section>
-        <!-- Rinterion news section end -->
+        <!-- Rinterio news section end -->
+
+        <!-- Contact section start -->
+        <section class="relative bg-cover bg-center bg-page-bg border-8 border-white">
+            <!-- Gray overlay -->
+            <div class="absolute inset-0 bg-gray-1/40 opacity-50 z-0"></div>
+            <div class="relative container mx-auto px-5 py-10 sm:py-20 z-10">
+                <!-- section title -->
+                <div class="max-w-2xl mx-auto space-y-4 text-center">
+                    <button class="bg-primary/20 rounded-full px-5 py-2 font-bold text-gray-4"><i
+                            class="fa-solid fa-arrow-right mr-1"></i>Let’s Connect</button>
+                    <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-5 font-extrabold">Let’s Discuss Next Project</h2>
+                    <p class="text-gray-4 font-medium">The barn house captivates with its blend of rustic charm and
+                        modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                </div>
+
+                <!-- form section -->
+                <div class="max-w-5xl mx-auto pt-12">
+                    <form class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <input class="px-5 py-4 rounded-full outline-none text-gray-2 font-medium" type="text" placeholder="First Name*" required>
+
+                        <input class="px-5 py-4 rounded-full outline-none text-gray-2 font-medium" type="text" placeholder="Last Name*" required>
+
+                        <input class="px-5 py-4 rounded-full outline-none text-gray-2 font-medium" type="number" placeholder="Phone Number*" required>
+
+                        <input class="px-5 py-4 rounded-full outline-none text-gray-2 font-medium" type="email" placeholder="Email Address*" required>
+
+                        <textarea class="md:col-span-2 px-5 py-4 rounded-2xl outline-none text-gray-2 font-medium resize-none" placeholder="Write your message here" rows="8"></textarea>
+                        
+                        <button class="md:col-span-2 px-5 py-3 bg-primary rounded-full text-xl font-extrabold text-gray-6 ">Book Consult<i class="fa-solid fa-arrow-right bg-gray-6 p-1 rounded-full -rotate-[35deg] text-white ml-2"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Contact section end -->
+
     </main>
     <!-- Main section end -->
 
